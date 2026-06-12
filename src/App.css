@@ -1,0 +1,14 @@
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 10)); } /* Adjust based on image width */
+  }
+  
+  .animate-scroll {
+    display: flex;
+    width: calc(250px * 20); /* Total width of 20 images */
+    animation: scroll 40s linear infinite;
+  }
+  
+  .animate-scroll:hover {
+    animation-play-state: paused; /* Jab mouse le jao toh scroll ruk jaye */
+  }
