@@ -27,7 +27,7 @@ import FinalGift from './pages/finalgift';
 import WishPage from './pages/pleasure';
 function App(){
   return (
-    <Router>
+    <Router basename="/12_june_2026">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/wish" element={<Wish />} />

@@ -5,28 +5,28 @@ const MovieNight = () => {
   const movies = [
     {
       id: 1,
-      img: "/assets/movies1.jpeg",
+      img: "./assets/movies1.jpeg",
       title: "The Greate setaan",
       desc: "kuch to baat thi in logo me , varna yu hi to koi itna pagal nhi hota ....horror movie k naam pe top class comedy dheki hamne , usse better bhoot to ham bangye the movie dek k go ground me aadhi raat ko chilla rhe the ....😂👻",
       rating: "⭐⭐⭐⭐"
     },
     {
       id: 2,
-      img: "/assets/movies2.jpeg",
+      img: "./assets/movies2.jpeg",
       title: "The Taaj story",
       desc: "Pheli baar hamne theartor me movies dekhi thi , it was good experience , hamne zoo me competition bhi to dekha tha sher 😂 (yaad h na??)....we have fun together , play together and enjoye the first experince.",
       rating: "⭐⭐⭐⭐"
     },
     {
       id: 3,
-      img: "/assets/movies3.jpeg",
+      img: "./assets/movies3.jpeg",
       title: "Damiyaan lot aaya",
       desc: "itni movies dek li gaise movies dekhne k lea B.tech ki thi 😂😂... har ek joner try kar chuke , chota bheem tak bhi , kirmaada ki bhen 😂😂",
       rating: "⭐⭐⭐⭐"
     },
     {
       id: 4,
-      img: "/assets/movies4.jpeg",
+      img: "./assets/movies4.jpeg",
       title: "Our story",
       desc: "Everything is good , but the fun is us.... movies to hamesha se ordinary hi thi , go acha tha vo to company thi giske sath , jiske vjah se sab enjoy kiya ...🧿❤️🫂",
       rating: "⭐⭐⭐⭐⭐"

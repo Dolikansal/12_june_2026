@@ -7,7 +7,7 @@ const HoliSpecial = () => {
   const holiMemories = [
     {
       id: 1,
-      img: "/assets/holi1.jpeg",
+      img: "./assets/holi1.jpeg",
       title: "Pehli Holi!",
       accent: "#ec4899", // Pink
       secondary: "#f472b6",
@@ -15,7 +15,7 @@ const HoliSpecial = () => {
     },
     {
       id: 2,
-      img: "/assets/holi2.jpeg",
+      img: "./assets/holi2.jpeg",
       title: "Gulaal Gang",
       accent: "#facc15", // Yellow
       secondary: "#fde047",
@@ -23,7 +23,7 @@ const HoliSpecial = () => {
     },
     {
       id: 3,
-      img: "/assets/holi3.jpeg",
+      img: "./assets/holi3.jpeg",
       title: "world War",
       accent: "#22d3ee", // Cyan
       secondary: "#67e8f9",

@@ -7,21 +7,21 @@ const Weekends = () => {
       id: 1,
       title: "Aura ka katora",
       content: "Sankari hi itne h ki bado ko dekh k pero me pad gaate hai 😂 ...fir chahe bade dar hi kyu na jaye usse hame kya vo unki dikkat h 😂",
-      img: "/assets/weekend1.jpeg", 
+      img: "./assets/weekend1.jpeg", 
       pos: "justify-start"
     },
     {
       id: 2,
       title: "Walking Dead Mode",
       content: "ham log weekend dek k pagal hojate hai , walk k naam pe aadhi university naap di hai hamne infact usse bhar bhi , ye kaisa pagalpan h bhagwan hi jaane 😂",
-      img: "/assets/weekend4.jpeg",
+      img: "./assets/weekend4.jpeg",
       pos: "justify-end"
     },
     {
       id: 3,
       title: "Sarvor ka sukoon",
       content: "We are chasing the time , aise hva ki trah furrrr hojayege gaise hamra room hostel me nhi sarovar pe hai...😂😂  ",
-      img: "/assets/group1.jpeg",
+      img: "./assets/group1.jpeg",
       pos: "justify-center"
     }
   ];

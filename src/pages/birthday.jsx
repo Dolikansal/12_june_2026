@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const BirthdayVibes = () => {
   const images = [
-    "/assets/birthday.jpeg",
-    "/assets/birthday2.jpeg", 
-    "/assets/birthday1.jpeg",
-    "/assets/birthday4.jpeg",
-    "/assets/birthday3.jpeg"
+    "./assets/birthday.jpeg",
+    "./assets/birthday2.jpeg", 
+    "./assets/birthday1.jpeg",
+    "./assets/birthday4.jpeg",
+    "./assets/birthday3.jpeg"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

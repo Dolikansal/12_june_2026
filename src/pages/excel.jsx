@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const CollegeFests = () => {
   const images = [
-    { src: "/assets/excel1.jpeg", label: "excelsiour award 🚀" },
-    { src: "/assets/excel2.jpeg", label: "fest 💃" },
-    { src: "/assets/excel3.jpeg", label: "Ratanavali 🎤" }
+    { src: "./assets/excel1.jpeg", label: "excelsiour award 🚀" },
+    { src: "./assets/excel2.jpeg", label: "fest 💃" },
+    { src: "./assets/excel3.jpeg", label: "Ratanavali 🎤" }
   ];
 
   return (

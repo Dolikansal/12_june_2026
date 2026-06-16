@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const GeetaJayanti2 = () => {
   const images = [
-    { src: "/assets/geeta1.jpeg", label: "Geeta Jyanti Ke Nazare" },
-    { src: "/assets/geeta2.jpeg", label: "SRK Vali Smile Teri 😂" },
-    { src: "/assets/geet3.jpeg", label: "Nature Love ❤️🧿" }
+    { src: "./assets/geeta1.jpeg", label: "Geeta Jyanti Ke Nazare" },
+    { src: "./assets/geeta2.jpeg", label: "SRK Vali Smile Teri 😂" },
+    { src: "./assets/geet3.jpeg", label: "Nature Love ❤️🧿" }
   ];
 
   return (

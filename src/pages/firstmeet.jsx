@@ -19,9 +19,9 @@ const FirstMeet = () => {
       {/* 3 Images in ONE ROW */}
       <div className="flex flex-wrap justify-center gap-6 md:gap-10 w-full max-w-6xl mb-20 perspective-1000">
   {[
-    { src: "/assets/firstmeet1.jpeg", delay: 0.1 },
-    { src: "/assets/firstmeet2.jpeg", delay: 0.3 },
-    { src: "/assets/firstmeet3.jpeg", delay: 0.5 }
+    { src: "./assets/firstmeet1.jpeg", delay: 0.1 },
+    { src: "./assets/firstmeet2.jpeg", delay: 0.3 },
+    { src: "./assets/firstmeet3.jpeg", delay: 0.5 }
   ].map((img, index) => (
     <motion.div
       key={index}

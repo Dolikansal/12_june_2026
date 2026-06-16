@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 const SelfieJoyPage = () => {
   // 3 Images ka setup (Selfie stick special)
   const moments = [
-    { id: 1, img: "/assets/selfie1.jpeg", angle: -5, label: "The First Attempt" },
-    { id: 2, img: "/assets/selfie3.jpeg", angle: 3, label: "Wide Angle Masti" },
-    { id: 3, img: "/assets/selfie2.jpeg", angle: -2, label: "Perfect Frame" }
+    { id: 1, img: "./assets/selfie1.jpeg", angle: -5, label: "The First Attempt" },
+    { id: 2, img: "./assets/selfie3.jpeg", angle: 3, label: "Wide Angle Masti" },
+    { id: 3, img: "./assets/selfie2.jpeg", angle: -2, label: "Perfect Frame" }
   ];
 
   return (

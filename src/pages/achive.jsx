@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const LittleAchievements = () => {
   const achievements = [
-    { id: 1, img: "/assets/achive2.jpeg", title: "Ramayana Quiz", subtitle: "Little moment", emoji: "🎁" },
-    { id: 2, img: "/assets/achive1.jpeg", title: "Unstop goodies", subtitle: "Build journey", emoji: "💻" },
-    { id: 3, img: "/assets/achive3.jpeg", title: "Sankalp partner", subtitle: "Best friend", emoji: "📡" },
-    { id: 4, img: "/assets/achive4.jpeg", title: "TTTTT smile", subtitle: "my energy", emoji: "🌱" }
+    { id: 1, img: "./assets/achive2.jpeg", title: "Ramayana Quiz", subtitle: "Little moment", emoji: "🎁" },
+    { id: 2, img: "./assets/achive1.jpeg", title: "Unstop goodies", subtitle: "Build journey", emoji: "💻" },
+    { id: 3, img: "./assets/achive3.jpeg", title: "Sankalp partner", subtitle: "Best friend", emoji: "📡" },
+    { id: 4, img: "./assets/achive4.jpeg", title: "TTTTT smile", subtitle: "my energy", emoji: "🌱" }
   ];
 
   return (

@@ -5,11 +5,11 @@ const HostelMasti = () => {
   const [activeFile, setActiveFile] = useState(null);
 
   const folders = [
-    { id: 1, name: "Matching_asthetics.jpg", content: "Asthetic to match karna jaruri hai na!!...", img: "/assets/hostle1.jpeg", icon: "🖼️" },
-    { id: 2, name: "Happy_holi.mp4", content: "Aaji ham to vaise bhi meera bawan se h , so no issue 👉👈", img: "/assets/hostel5.jpeg", icon: "🎥" },
-    { id: 3, name: "Pagalpan_gang.log", content: "Kuch to bat thi ham me , varna yu hi to koi itna pagal nhi hota...", img: "/assets/hostel4.jpeg", icon: "📄" },
-    { id: 4, name: "Warther_on_top.pdf", content: "Main nachu aaj cham cham cham .... Monjulika 😂", img: "/assets/hostel3.jpeg", icon: "☕" },
-    { id: 5, name: "Living_togther.png", content: "My biggest pleasure ❤️🫂🧿", img: "/assets/hostel2.jpeg", icon: "✨" },
+    { id: 1, name: "Matching_asthetics.jpg", content: "Asthetic to match karna jaruri hai na!!...", img: "./assets/hostle1.jpeg", icon: "🖼️" },
+    { id: 2, name: "Happy_holi.mp4", content: "Aaji ham to vaise bhi meera bawan se h , so no issue 👉👈", img: "./assets/hostel5.jpeg", icon: "🎥" },
+    { id: 3, name: "Pagalpan_gang.log", content: "Kuch to bat thi ham me , varna yu hi to koi itna pagal nhi hota...", img: "./assets/hostel4.jpeg", icon: "📄" },
+    { id: 4, name: "Warther_on_top.pdf", content: "Main nachu aaj cham cham cham .... Monjulika 😂", img: "./assets/hostel3.jpeg", icon: "☕" },
+    { id: 5, name: "Living_togther.png", content: "My biggest pleasure ❤️🫂🧿", img: "./assets/hostel2.jpeg", icon: "✨" },
   ];
 
   return (

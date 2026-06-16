@@ -3,9 +3,9 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 
 const LateNightOuting = () => {
   const images = [
-    { id: 1, url: "/assets/ln1.jpeg", title: "NIT FEST", desc: "First time we attend a concert , its was all fun in the winter nigth in half sleevs. Thand se mar jayege par aura kam nhi hona chiye 😂😏", color: "cyan" },
-    { id: 2, url: "/assets/ln2.jpeg", title: "AMRITSAR", desc: "it was little scary but with a lot of fun , vo sukun , santi , raat ko ghumna , early morning pictures all amazing", color: "fuchsia" },
-    { id: 3, url: "/assets/ln3.jpeg", title: "weekends", desc: "our faviourite part of weekend is walking, sarovar pe der tak baith kar aana is love.", color: "lime" }
+    { id: 1, url: "./assets/ln1.jpeg", title: "NIT FEST", desc: "First time we attend a concert , its was all fun in the winter nigth in half sleevs. Thand se mar jayege par aura kam nhi hona chiye 😂😏", color: "cyan" },
+    { id: 2, url: "./assets/ln2.jpeg", title: "AMRITSAR", desc: "it was little scary but with a lot of fun , vo sukun , santi , raat ko ghumna , early morning pictures all amazing", color: "fuchsia" },
+    { id: 3, url: "./assets/ln3.jpeg", title: "weekends", desc: "our faviourite part of weekend is walking, sarovar pe der tak baith kar aana is love.", color: "lime" }
   ];
 
   return (

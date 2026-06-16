@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const GroupGather = () => {
   const groups = [
-    { id: 1, img: "/assets/group2.jpeg", title: "The Begining", deg: "-rotate-3", desc: "Ek ek karke kitne saare log mile the , everyone has their own charm .... Dj nights , Garba nights , movie nights , Hunting kitna kuch enjoy kiya tha hamne sath me ...." },
-    { id: 2, img: "/assets/group3.jpeg", title: "The Craze", deg: "rotate-2", desc: "dosti k dushmano ne ped hi ukahd diya 😂😂 , oo meri paaro .... ek ek chai k cup ka hisab tha is ped k pass gha chad k hamne tuffan mcha diya tha ....but its cute ..🥰😍" },
-    { id: 3, img: "/assets/group4.jpeg", title: "The Journey", deg: "-rotate-1", desc: "Dhire dhire log kam hogye or yaade jayda , but the journey was amazing . itna fun the sath me , ek pagalpan sa ... uno , chai party , sarovar pe masti , reels ....❤️❤️" },
-    { id: 4, img: "/assets/group1.jpeg", title: "The Real One", deg: "rotate-6", desc: "In the end , ham do logo ka bda sa group hamesha mera favourite rhega....you are my best friend , my favourite diary , gisme me hamesha kuch likhna chahta hu " }
+    { id: 1, img: "./assets/group2.jpeg", title: "The Begining", deg: "-rotate-3", desc: "Ek ek karke kitne saare log mile the , everyone has their own charm .... Dj nights , Garba nights , movie nights , Hunting kitna kuch enjoy kiya tha hamne sath me ...." },
+    { id: 2, img: "./assets/group3.jpeg", title: "The Craze", deg: "rotate-2", desc: "dosti k dushmano ne ped hi ukahd diya 😂😂 , oo meri paaro .... ek ek chai k cup ka hisab tha is ped k pass gha chad k hamne tuffan mcha diya tha ....but its cute ..🥰😍" },
+    { id: 3, img: "./assets/group4.jpeg", title: "The Journey", deg: "-rotate-1", desc: "Dhire dhire log kam hogye or yaade jayda , but the journey was amazing . itna fun the sath me , ek pagalpan sa ... uno , chai party , sarovar pe masti , reels ....❤️❤️" },
+    { id: 4, img: "./assets/group1.jpeg", title: "The Real One", deg: "rotate-6", desc: "In the end , ham do logo ka bda sa group hamesha mera favourite rhega....you are my best friend , my favourite diary , gisme me hamesha kuch likhna chahta hu " }
   ];
 
   return (

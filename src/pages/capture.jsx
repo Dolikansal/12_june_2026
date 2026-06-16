@@ -5,12 +5,12 @@ const FinalWish = () => {
   const [index, setIndex] = useState(0);
 
   const images = [
-    "/assets/capture1.jpeg", 
-    "/assets/capture2.jpeg",
-    "/assets/capture3.jpeg",
-    "/assets/capture4.jpeg",
-    "/assets/capture5.jpeg",
-    "/assets/capture6.jpeg"
+    "./assets/capture1.jpeg", 
+    "./assets/capture2.jpeg",
+    "./assets/capture3.jpeg",
+    "./assets/capture4.jpeg",
+    "./assets/capture5.jpeg",
+    "./assets/capture6.jpeg"
   ];
 
   const wishes = [

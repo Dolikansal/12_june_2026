@@ -5,13 +5,13 @@ const PartyPage = () => {
     {
       title: "Har choti-badi chizon ka ho jashn manana to...\n Hame nahi chahiye gaana-bajaana, chahiye to bas thoda khana aur thoda khilkhilana!",
       content: "Log jeene ke liye khate hain aur hum khane ke liye jee rahe hain! 😂\n Result aaya, scholarship aayi, Negi ne repost kiya, ya mausam achha hai... chalo kuch kha lete hain!😂\n Kyunki jeena agar zaruri hai, toh khana bohot zaruri hai.\n Har choti cheez ka chota sa celebration bohot pyari yaad ban jati hai, aur inhi yaadon ko ek dhage mein piro kar, tere liye ye tohfa pesh hai! 🥰✨",
-      img: "/assets/party2.jpeg",
+      img: "./assets/party2.jpeg",
       reverse: false,
     },
     {
       title: "Dance, Eat, Repeat! 💃🍕",
       content: `Kabhi baarish mein bheegte hue Maggie lana, 🍜\nKabhi Maggie banane ke liye induction ka khud prakat ho jaana! ✨\nWo aam-panna ke chatkare lagana, ya ped se tod-tod kar jamun khana... 🫐\nAam todne ki khatir ped pe chadh jaana aur wahan se utar ke shuttle le aana! 🏸\n\nKabhi jise kha ke ungliyan chaat-te rahe—wo Amritsari Kulcha, 🥙\nYa jise kha ke "Aa-chhiii" nikal jaye—vahi Chilli Potato, Pizza aur Burger khana! 🍕🍔\nLangar toh kha liya, magar ek shaadi crack karna abhi baaki hai... 😉\n\nKabhi chatpata, kabhi meetha, kabhi teekha... tha tere saath ye safar, magar abhi asli masale baaki hai! 🔥`,
-      img: "/assets/party1.jpeg",
+      img: "./assets/party1.jpeg",
       reverse: true,
     }
   ];

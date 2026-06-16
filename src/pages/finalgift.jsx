@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useNavigate } from 'react-router';
 
 const FinalGift = () => {
   const [stage, setStage] = useState('emojis');
   const [count, setCount] = useState(3);
+  const navigate = useNavigate();
 
   const lifetimePoetry = [
     "I will be with you in 8 directions...Wherever you wander, I’ll be standing right by your side.. Or maybe....",
@@ -144,7 +146,7 @@ const FinalGift = () => {
               className="relative"
             >
               <img
-                src="/assets/cake.jpeg"
+                src="./assets/cake.jpeg"
                 alt="Aesthetic Cake"
                 className="w-60 h-60 md:w-110 md:h-110 drop-shadow-[0_0_40px_rgba(34,211,238,0.7)] rounded-2xl"
               />
@@ -170,7 +172,7 @@ const FinalGift = () => {
           initial={{ scale: 1.05, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
-          src="/assets/final.jpeg"
+          src="./assets/final.jpeg"
           alt="Final Present Portrait"
           className="h-full w-full object-cover object-center"
         />
@@ -298,7 +300,7 @@ const FinalGift = () => {
               
               {/* Antique Sealed Royal Button */}
               <button
-                onClick={() => window.location.href = '/pleasure'}
+                onClick={() => navigate('/pleasure')}
                 className="relative z-30 focus:outline-none rounded-sm"
               >
                 <motion.div

@@ -127,10 +127,10 @@ const BrainyCard = ({ card, index }) => {
 const BeautyWithBrain = () => {
   // Data remains same, just used better placeholder names for imagery context
   const cards = [
-    { id: 1, img: "/assets/beauty3.jpeg", title: "After fairlovely", desc: "my little princes , i will treat you as treasure . hamare beauty sessions ko bhla kon rok sakta hai " },
-    { id: 2, img: "/assets/beauty1.jpeg", title: "Cheeta", desc: "Shero k muh kisne dhoye aisa khete hai log maine to scrub kar diya tha or face pack bhi lga diya tha 😂👻" },
-    { id: 3, img: "/assets/beauty4.jpeg", title: "Before fairlovely", desc: "camera khol k ye feel to aata hai ki main bass dil se acha hu 👉👈" },
-    { id: 4, img: "/assets/beauty2.jpeg", title: "Beautiful world", desc: "well jokes apart you are the best , very beautiful and with a pure soul. hindi me bole to gods faviourate child 🫂" }
+    { id: 1, img: "./assets/beauty3.jpeg", title: "After fairlovely", desc: "my little princes , i will treat you as treasure . hamare beauty sessions ko bhla kon rok sakta hai " },
+    { id: 2, img: "./assets/beauty1.jpeg", title: "Cheeta", desc: "Shero k muh kisne dhoye aisa khete hai log maine to scrub kar diya tha or face pack bhi lga diya tha 😂👻" },
+    { id: 3, img: "./assets/beauty4.jpeg", title: "Before fairlovely", desc: "camera khol k ye feel to aata hai ki main bass dil se acha hu 👉👈" },
+    { id: 4, img: "./assets/beauty2.jpeg", title: "Beautiful world", desc: "well jokes apart you are the best , very beautiful and with a pure soul. hindi me bole to gods faviourate child 🫂" }
   ];
 
   return (

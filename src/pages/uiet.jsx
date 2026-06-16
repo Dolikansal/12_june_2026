@@ -5,10 +5,10 @@ const CollegeDays = () => {
   const [selectedLetter, setSelectedLetter] = useState(null);
 
   const memories = [
-    { id: 1, title: "Mission lift taken", content: "us special vali bus me baithe the ... (ye kyu btana h bhla sirf do min k lea 😂)", img: "/assets/uiet3.jpeg", sticker: "🤝" },
-    { id: 2, title: "Asthetic Vibe", content: "so innocent in face but hai puri setaan khopdi ....😂", img: "/assets/uiet1.jpeg", sticker: "☕" },
-    { id: 3, title: "black gang", content: "Chalo kisi jamane me to hamari twining hui hai .... by the way looks good (obeviously me)", img: "/assets/uiet2.jpeg", sticker: "📝" },
-    { id: 4, title: "Network on top", content: "certificate to hona chiye , 2nd position aayi thi all credit goes to network company (khi to time pe chle)", img: "/assets/uiet4.jpeg", sticker: "🚀" },
+    { id: 1, title: "Mission lift taken", content: "us special vali bus me baithe the ... (ye kyu btana h bhla sirf do min k lea 😂)", img: "./assets/uiet3.jpeg", sticker: "🤝" },
+    { id: 2, title: "Asthetic Vibe", content: "so innocent in face but hai puri setaan khopdi ....😂", img: "./assets/uiet1.jpeg", sticker: "☕" },
+    { id: 3, title: "black gang", content: "Chalo kisi jamane me to hamari twining hui hai .... by the way looks good (obeviously me)", img: "./assets/uiet2.jpeg", sticker: "📝" },
+    { id: 4, title: "Network on top", content: "certificate to hona chiye , 2nd position aayi thi all credit goes to network company (khi to time pe chle)", img: "./assets/uiet4.jpeg", sticker: "🚀" },
   ];
 
   return (

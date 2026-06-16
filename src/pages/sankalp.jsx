@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const SankalpPage = () => {
   const images = [
-    { id: 1, url: "/assets/sankalp1.jpeg", label: "The Support", emoji: "🤝" },
-    { id: 2, url: "/assets/sankalp2.jpeg", label: "The Vision", emoji: "🎯" },
-    { id: 3, url: "/assets/desc1.jpeg", label: "The Promise", emoji: "♾️" }
+    { id: 1, url: "./assets/sankalp1.jpeg", label: "The Support", emoji: "🤝" },
+    { id: 2, url: "./assets/sankalp2.jpeg", label: "The Vision", emoji: "🎯" },
+    { id: 3, url: "./assets/desc1.jpeg", label: "The Promise", emoji: "♾️" }
   ];
 
   const floatingStickers = ["✨", "🛡️", "🔥", "🌸", "🧿", "💎", "🫂", "🚀"];

@@ -8,28 +8,28 @@ const VideoCallPage = () => {
   const slides = [
     {
       id: 1,
-      img: "/assets/vc1.jpeg", 
+      img: "./assets/vc1.jpeg", 
       title: "MY BARBIE GIRL",
       text: "No matter how the things will be in future but you will always be my faviourite notification....it was never annoying, it was always alorable , loveable ....❤️🧿",
       stickers: ["✨", "🦋", "💖"]
     },
     {
       id: 2,
-      img: "/assets/vc2.jpeg",
+      img: "./assets/vc2.jpeg",
       title: "Drama queen",
       text: "i love to hear you at every moment , teri patar patar sune bina muje mza nhi aata , din to nikal jata hai magar dil ko sukun nhi aata ....",
       stickers: ["🐣", "🌈", "🍕"]
     },
     {
       id: 3,
-      img: "/assets/vc3.jpeg",
+      img: "./assets/vc3.jpeg",
       title: "CRIME PARTNERS",
       text: "you know what , tujse lde bina mera khana hazam nhi hota , tujse thoda ladh bidh k tuje ched k , teri ye cute cute se reaction dekhna mera favourite part hai , i love to see you angry and cute at the same time ....",
       stickers: ["🧸", "🍭", "🌸"]
     },
     {
       id: 4,
-      img: "/assets/vc4.jpeg",
+      img: "./assets/vc4.jpeg",
       title: "MY gem",
       text: "You are my hunny bunch , sugar plum , Pumpy-umpy-umpkin ,You're my sweetie pie , you are my cuppy cake , gum drop , Snoogums boogums you're The apple of my eye And I love you so and I want you to know That I'll always be right here And I love to sing, sweet songs to you Because you are so dear ",
       stickers: ["🧠", "💎", "🔥"]

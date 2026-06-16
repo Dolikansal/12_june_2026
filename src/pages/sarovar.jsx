@@ -5,28 +5,28 @@ const GeetaJayanti = () => {
   const [cards, setCards] = useState([
     {
       id: 1,
-      img: "/assets/sarovar2.jpeg",
+      img: "./assets/sarovar2.jpeg",
       title: "iconic pose",
       content: "ek ajib sa pagalpan or janun tha us shaam me go hame itni sare adventures ko cross karke  sarovar tak kich layi thi , itne sare bandaro k bich se nikle the , gate se khud k gye the mast masti kari , apni pheli asthetic reels bhi to vhi banai thi or kya mast lot pot the ham sarovar me ek dusre ko duba rhe the or logo ko aisa khub taada tha , ki koi palat kar na deke....😂😂",
       color: "#083344"
     },
     {
       id: 2,
-      img: "/assets/sarovar4.jpeg",
+      img: "./assets/sarovar4.jpeg",
       title: "Main , tu or sarovar",
       content: "hamari har problem ka solution tha sarovar ka peace , like kuch to magical tha yha go hame kichta tha syd iska aura or hamari baate , gaise ku me survive karne k lea hi sarovar bna ho ... vha ki baate , yaade , shake , shanti , view , sab epic hai , adorable h , i wish ki har sham ham itni shanti k sath nikal ske bass sunset dekte hue or thandi hva ko feel karte hue.... ",
       color: "#0e7490"
     },
     {
       id: 3,
-      img: "/assets/sarovar3.jpeg",
+      img: "./assets/sarovar3.jpeg",
       title: "Get together",
       content: "finally the day come , giska hamne wait kiya tha a get together at sarovar , it was so much of fun  and laughter hamari sheli bhi to gyi thi ....i know it was not as expected but lets acpect it and celebrate it with a smile , ending kaisi bhi ho journey to hamari thi hamne tey kari thi .... ",
       color: "#155e75"
     },
     {
       id: 4,
-      img: "/assets/weekend3.jpeg",
+      img: "./assets/weekend3.jpeg",
       title: "Weekends",
       content: "finally hamne sarovar pe late tak stay kiya aunties k sath kirtan kiya , or garba bhi to dekha or aarti k mje bhi to liye .... pheli aarti pe to lga gaise yhi moment h giske lea yha tak aaye h , ",
       color: "#164e63"
